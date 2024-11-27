@@ -1,0 +1,79 @@
+//^ colors
+$clr4: rgb(64, 65, 69);
+$transparent: transparent;
+$inherit: inherit;
+$current: currentColor;
+$black: #000;
+$white: #fff;
+$white-10: hsla(0, 0%, 100%, .1);
+$white-20: hsla(0, 0%, 100%, .2);
+$white-50: hsla(0, 0%, 100%, .5);
+$white-80: hsla(0, 0%, 100%, .8);
+$white-90: hsla(0, 0%, 100%, .9);
+$light-blue-1: #f0f4ff;
+$light-blue-2: #d4defb;
+$light-blue-3: #b9c9f7;
+$light-blue-4: #9db4f3;
+$blue-1: #819ef0;
+$blue-2: #6689ec;
+$blue-3: #446ee7;
+$blue-4: #3f63c8;
+$blue-5: #3453a8;
+$blue-6: #284389;
+$blue-7: #1d3369;
+$blue-8: #122349;
+$light-gray-1: #f6f6ff;
+$light-gray-2: #e4e3ff;
+$light-purple: #b1abff;
+$dark-purple-1: #584aff;
+$dark-purple-2: #2e25ad;
+$dark-purple-3: #1e1692;
+$dark-purple-4: #0d084d;
+$light-green-1: #e8faf4;
+$light-green-2: #d0f7e6;
+$green-1: #a6eaca;
+$green-2: #84dfb5;
+$green-3: #62d49f;
+$green-4: #3fca89;
+$green-5: #1dbf73;
+$green-6: #00aa5a;
+$green-7: #008a37;
+$green-8: #00732e;
+$green-9: #005c25;
+$green-10: #003912;
+$gray-1: #fafafa;
+$gray-2: #f5f5f5;
+$gray-3: #efeff0;
+$gray-4: #e4e5e7;
+
+
+$card-background: #fff;
+$card-border-radius: 8px;
+$card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+$card-hover-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+$primary-color: #333;
+$secondary-color: #555;
+$description-color: #777;
+
+
+$white: #ffffff;
+$grey: #888888;  // This could be a variable for a grey scale
+$grey-light: #dcdcdc;
+$grey-dark: #444444;
+
+$grey-500: #b3b3b3; // Border color of input in search form
+$grey-600: #8c8c8c; // Border color of dark mode input
+$grey-800: #4d4d4d; // Placeholder color
+$grey-1000: #333333; // Text color in dark mode input
+$grey-1200: #1a1a1a; // Stronger color for dark mode focus border and background fade
+$black: #000000; // Background color of `.search-bar-dim-background`
+
+$fade-in-background-color: rgba($grey-1200, 0.65); // Dim background overlay color
+
+
+$checkmark_box_size_square: 24px;  // size of the box (adjust as needed)
+
+
+$animation_duration_fast_01: 0.2s;
+$animation_timing_function_standard: ease-in-out;
+

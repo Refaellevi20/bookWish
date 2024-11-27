@@ -1,0 +1,89 @@
+
+
+.book-preview__card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: $card-shadow;
+    padding: 20px;
+    margin: 10px;
+    width: em(250px);
+    font-family: sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+    &:hover {
+        box-shadow: $card-hover-shadow;
+    }
+
+    .book-preview__price,
+    .book-preview__title,
+    .book-preview__description {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    .book-preview__price {
+        font-size: 18px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+
+    .book-preview__title {
+        font-size: 16px;
+        font-weight: 600;
+        color:  #555;
+    }
+
+    .book-preview__description {
+        font-size: 14px;
+        color: $description-color;
+        font-style: italic;
+    }
+
+    .book-preview__name {
+        color: #4FFFB0;
+    }
+}
+
+li.book-preview::marker {
+    content: none;
+}
+
+.checkmark-box {
+    background-color: $white;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: $checkmark_box_size_square;
+    min-width: $checkmark_box_size_square;
+    height: $checkmark_box_size_square;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-right: 8px;
+    border: 1px solid #c5c6c9;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.check-icon {
+    transform: scale(.5);
+    transform-origin: 50% 50%;
+    display: inline-block;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 40px;
+    opacity: 0;
+    pointer-events: none;
+    fill: black;
+    transition: ease-in-out;
+}
+
+.checkmark-box.checked .check-icon {
+    opacity: 1;
+}
+
+.checkmark-box.checked .check-icon {
+    opacity: 1;
+}
